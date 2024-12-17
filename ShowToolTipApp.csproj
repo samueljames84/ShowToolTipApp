@@ -3,5 +3,9 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>ShowToolTipApp</AssemblyName>
+    <OutputPath>./bin/Release/</OutputPath>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <NoWarn>$(NoWarn);CS0659</NoWarn>
   </PropertyGroup>
 </Project>
